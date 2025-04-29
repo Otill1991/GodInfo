@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Security.Principal;
 using System.ComponentModel;
@@ -24,12 +24,12 @@ namespace GodInfo.Utils
             string banner = @"
  +--------------------------------------------+
  |   ____           _  ___        __          |
- |  / ___|___   __| |/_ _|_ __  / _| ___     |
- | | |  _/ _ \ / _` | | || '_ \| |_ / _ \    |
- | | |_| | (_) | (_| | | || | | |  _| (_) |  |
- |  \____\___/ \__,_|\___|_| |_|_|  \___/    |
+ |  / ___|___   __| |/_ _|_ __  / _| ___      |
+ | | |  _/ _ \ / _` | | || '_ \| |_ / _ \     |
+ | | |_| | (_) | (_| | | || | | |  _| (_) |   |
+ |  \____\___/ \__,_|\___|_| |_|_|  \___/     |
  |                                            |
- |           GodInfo V1.0 By Conan            |
+ |           GodInfo V1.0 By Conan&小黑       |
  +--------------------------------------------+";
             Logger.WriteLine(banner);
         }
