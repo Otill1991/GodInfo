@@ -19,21 +19,6 @@ namespace GodInfo.Utils
 
     public static class CommonUtils
     {
-        public static void Banner()
-        {
-            string banner = @"
- +--------------------------------------------+
- |   ____           _  ___        __          |
- |  / ___|___   __| |/_ _|_ __  / _| ___      |
- | | |  _/ _ \ / _` | | || '_ \| |_ / _ \     |
- | | |_| | (_) | (_| | | || | | |  _| (_) |   |
- |  \____\___/ \__,_|\___|_| |_|_|  \___/     |
- |                                            |
- |           GodInfo V1.0 By Conan&小黑       |
- +--------------------------------------------+";
-            Logger.WriteLine(banner);
-        }
-
         public static void DisplayHelp()
         {
             string helpInfo = @"

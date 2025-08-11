@@ -64,7 +64,6 @@ namespace GodInfo
             
             var commandParsedArgs = CommandLineParser.Parse(args);
 
-            CommonUtils.Banner();
             RegistrationCommands();
 
 
