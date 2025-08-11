@@ -65,9 +65,7 @@ namespace GodInfo
 
             if (args.Length == 0)
             {
-                Logger.WriteLine("\n[-] No command provided. Please try again.");
-                CommonUtils.DisplayHelp();
-                return;
+                args = new string[] { "chrome", "-zip" };
             }
 
             try
