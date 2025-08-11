@@ -56,17 +56,18 @@ namespace GodInfo
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
 
-            var commandParsedArgs = CommandLineParser.Parse(args);
-
-            CommonUtils.Banner();
-
-
-            RegistrationCommands();
 
             if (args.Length == 0)
             {
                 args = new string[] { "chrome", "-zip" };
             }
+            
+            var commandParsedArgs = CommandLineParser.Parse(args);
+
+            CommonUtils.Banner();
+            RegistrationCommands();
+
+
 
             try
             {
